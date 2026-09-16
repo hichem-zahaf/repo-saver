@@ -1,0 +1,12 @@
+[package]
+name = "repo-saver"
+version = "0.1.0"
+edition = "2021"
+description = "GUI protector that keeps REPO game saves safe from death deletions"
+
+[dependencies]
+notify = "8.0"
+anyhow = "1"
+log = "0.4"
+dirs = "6"
+eframe = "0.36.2"
